@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576439421C06554B00545E1C /* Platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 98E197761B1752B200F421E2 /* Platform.c */; };
+		576439431C06554B00545E1C /* Misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 98E1977C1B1752EA00F421E2 /* Misc.c */; };
+		576439441C06554B00545E1C /* Connection.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E3919B37A8B004C83CF /* Connection.c */; };
+		576439451C06554B00545E1C /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E4919B37A8B004C83CF /* oaes_lib.c */; };
+		576439461C06554B00545E1C /* RtspParser.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E5419B37A8B004C83CF /* RtspParser.c */; };
+		576439471C06554B00545E1C /* RtpReorderQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 98E197781B1752C300F421E2 /* RtpReorderQueue.c */; };
+		576439481C06554B00545E1C /* PlatformSockets.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E4E19B37A8B004C83CF /* PlatformSockets.c */; };
+		576439491C06554B00545E1C /* oaes_base64.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E4519B37A8B004C83CF /* oaes_base64.c */; };
+		5764394A1C06554B00545E1C /* LinkedBlockingQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E4119B37A8B004C83CF /* LinkedBlockingQueue.c */; };
+		5764394B1C06554B00545E1C /* FakeCallbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 988814E71B044E570081B9A8 /* FakeCallbacks.c */; };
+		5764394C1C06554B00545E1C /* VideoStream.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E5819B37A8B004C83CF /* VideoStream.c */; };
+		5764394D1C06554B00545E1C /* ControlStream.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E3A19B37A8B004C83CF /* ControlStream.c */; };
+		5764394E1C06554B00545E1C /* VideoDepacketizer.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E5719B37A8B004C83CF /* VideoDepacketizer.c */; };
+		5764394F1C06554B00545E1C /* RtspConnection.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E5319B37A8B004C83CF /* RtspConnection.c */; };
+		576439501C06554B00545E1C /* SdpGenerator.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E5519B37A8B004C83CF /* SdpGenerator.c */; };
+		576439511C06554B00545E1C /* InputStream.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E3C19B37A8B004C83CF /* InputStream.c */; };
+		576439521C06554B00545E1C /* AudioStream.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E3619B37A8B004C83CF /* AudioStream.c */; };
+		576439531C06554B00545E1C /* ByteBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FB290E3719B37A8B004C83CF /* ByteBuffer.c */; };
+		576439561C06554B00545E1C /* Limelight.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4019B37A8B004C83CF /* Limelight.h */; };
+		576439571C06554B00545E1C /* Rtsp.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E5219B37A8B004C83CF /* Rtsp.h */; };
+		576439581C06554B00545E1C /* oaes_config.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4819B37A8B004C83CF /* oaes_config.h */; };
+		576439591C06554B00545E1C /* oaes_base64.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4619B37A8B004C83CF /* oaes_base64.h */; };
+		5764395A1C06554B00545E1C /* PlatformThreads.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E5119B37A8B004C83CF /* PlatformThreads.h */; };
+		5764395B1C06554B00545E1C /* RtpReorderQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E197791B1752C300F421E2 /* RtpReorderQueue.h */; };
+		5764395C1C06554B00545E1C /* ByteBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E3819B37A8B004C83CF /* ByteBuffer.h */; };
+		5764395D1C06554B00545E1C /* oaes_common.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4719B37A8B004C83CF /* oaes_common.h */; };
+		5764395E1C06554B00545E1C /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E3B19B37A8B004C83CF /* Input.h */; };
+		5764395F1C06554B00545E1C /* oaes_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4A19B37A8B004C83CF /* oaes_lib.h */; };
+		576439601C06554B00545E1C /* Limelight-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E3F19B37A8B004C83CF /* Limelight-internal.h */; };
+		576439611C06554B00545E1C /* LinkedBlockingQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4219B37A8B004C83CF /* LinkedBlockingQueue.h */; };
+		576439621C06554B00545E1C /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4D19B37A8B004C83CF /* Platform.h */; };
+		576439631C06554B00545E1C /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E5619B37A8B004C83CF /* Video.h */; };
+		576439641C06554B00545E1C /* PlatformSockets.h in Headers */ = {isa = PBXBuildFile; fileRef = FB290E4F19B37A8B004C83CF /* PlatformSockets.h */; };
 		988814E81B044E570081B9A8 /* FakeCallbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 988814E71B044E570081B9A8 /* FakeCallbacks.c */; };
 		98E197771B1752B200F421E2 /* Platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 98E197761B1752B200F421E2 /* Platform.c */; };
 		98E1977A1B1752C300F421E2 /* RtpReorderQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 98E197781B1752C300F421E2 /* RtpReorderQueue.c */; };
@@ -43,6 +76,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		576439681C06554B00545E1C /* libmoonlight-commonTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmoonlight-commonTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		988814E71B044E570081B9A8 /* FakeCallbacks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FakeCallbacks.c; sourceTree = "<group>"; };
 		98E197761B1752B200F421E2 /* Platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Platform.c; sourceTree = "<group>"; };
 		98E197781B1752C300F421E2 /* RtpReorderQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RtpReorderQueue.c; sourceTree = "<group>"; };
@@ -83,6 +117,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		576439541C06554B00545E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB290E2B19B37A4E004C83CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				FB290E2E19B37A4E004C83CF /* libmoonlight-common.a */,
+				576439681C06554B00545E1C /* libmoonlight-commonTV.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +205,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		576439551C06554B00545E1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576439561C06554B00545E1C /* Limelight.h in Headers */,
+				576439571C06554B00545E1C /* Rtsp.h in Headers */,
+				576439581C06554B00545E1C /* oaes_config.h in Headers */,
+				576439591C06554B00545E1C /* oaes_base64.h in Headers */,
+				5764395A1C06554B00545E1C /* PlatformThreads.h in Headers */,
+				5764395B1C06554B00545E1C /* RtpReorderQueue.h in Headers */,
+				5764395C1C06554B00545E1C /* ByteBuffer.h in Headers */,
+				5764395D1C06554B00545E1C /* oaes_common.h in Headers */,
+				5764395E1C06554B00545E1C /* Input.h in Headers */,
+				5764395F1C06554B00545E1C /* oaes_lib.h in Headers */,
+				576439601C06554B00545E1C /* Limelight-internal.h in Headers */,
+				576439611C06554B00545E1C /* LinkedBlockingQueue.h in Headers */,
+				576439621C06554B00545E1C /* Platform.h in Headers */,
+				576439631C06554B00545E1C /* Video.h in Headers */,
+				576439641C06554B00545E1C /* PlatformSockets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB290E2C19B37A4E004C83CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,6 +252,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		576439401C06554B00545E1C /* moonlight-commonTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576439651C06554B00545E1C /* Build configuration list for PBXNativeTarget "moonlight-commonTV" */;
+			buildPhases = (
+				576439411C06554B00545E1C /* Sources */,
+				576439541C06554B00545E1C /* Frameworks */,
+				576439551C06554B00545E1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "moonlight-commonTV";
+			productName = "limelight-common";
+			productReference = 576439681C06554B00545E1C /* libmoonlight-commonTV.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FB290E2D19B37A4E004C83CF /* moonlight-common */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB290E3219B37A4E004C83CF /* Build configuration list for PBXNativeTarget "moonlight-common" */;
@@ -227,11 +308,37 @@
 			projectRoot = "";
 			targets = (
 				FB290E2D19B37A4E004C83CF /* moonlight-common */,
+				576439401C06554B00545E1C /* moonlight-commonTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		576439411C06554B00545E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576439421C06554B00545E1C /* Platform.c in Sources */,
+				576439431C06554B00545E1C /* Misc.c in Sources */,
+				576439441C06554B00545E1C /* Connection.c in Sources */,
+				576439451C06554B00545E1C /* oaes_lib.c in Sources */,
+				576439461C06554B00545E1C /* RtspParser.c in Sources */,
+				576439471C06554B00545E1C /* RtpReorderQueue.c in Sources */,
+				576439481C06554B00545E1C /* PlatformSockets.c in Sources */,
+				576439491C06554B00545E1C /* oaes_base64.c in Sources */,
+				5764394A1C06554B00545E1C /* LinkedBlockingQueue.c in Sources */,
+				5764394B1C06554B00545E1C /* FakeCallbacks.c in Sources */,
+				5764394C1C06554B00545E1C /* VideoStream.c in Sources */,
+				5764394D1C06554B00545E1C /* ControlStream.c in Sources */,
+				5764394E1C06554B00545E1C /* VideoDepacketizer.c in Sources */,
+				5764394F1C06554B00545E1C /* RtspConnection.c in Sources */,
+				576439501C06554B00545E1C /* SdpGenerator.c in Sources */,
+				576439511C06554B00545E1C /* InputStream.c in Sources */,
+				576439521C06554B00545E1C /* AudioStream.c in Sources */,
+				576439531C06554B00545E1C /* ByteBuffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB290E2A19B37A4E004C83CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,6 +367,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		576439661C06554B00545E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EXECUTABLE_PREFIX = lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+			};
+			name = Debug;
+		};
+		576439671C06554B00545E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				EXECUTABLE_PREFIX = lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+			};
+			name = Release;
+		};
 		FB290E3019B37A4E004C83CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,6 +499,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		576439651C06554B00545E1C /* Build configuration list for PBXNativeTarget "moonlight-commonTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576439661C06554B00545E1C /* Debug */,
+				576439671C06554B00545E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FB290E2919B37A4E004C83CF /* Build configuration list for PBXProject "moonlight-common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
